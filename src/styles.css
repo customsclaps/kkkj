@@ -1,0 +1,34 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+body {
+  margin: 0;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: 360px;
+}
+
+.center-div {
+  width: 360px;
+  height: 360px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.center-div > span {
+  display: flex;
+  width: 4px;
+  height: 4px;
+  background-color: red;
+  border-radius: 2.5px;
+}
+
+div.dragging {
+  cursor: grabbing;
+}
